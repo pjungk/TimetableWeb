@@ -1,19 +1,22 @@
 import React, { useEffect, useState, useRef } from "react";
 import "./Daygrid.css";
 
-function Daygrid({activities, totalDayCount, dayCount}) {
+function Daygrid({activities, totalDayCount, dayCount, startEnd}) {
   const [activityData, setActivityData] = useState([]);
-
   const [selectedActivity, setSelectedActivity] = useState(null);
   const overlayRef = useRef(null);
-  const totalWidth = window.innerWidth/totalDayCount;
+
+  const totalWidth = Math.max(window.innerWidth/totalDayCount, 350);
+  const totalHeight = Math.max(window.innerHeight, 1000);
+  const totalHours = startEnd;
+  console.log(`Height: ${totalHours}`)
 
   useEffect(() => {
     const sortedActivities = activities.sort((a, b) => {
-      if (a.start === b.start) {
-        return b.end - a.end; // Sort by descending end time if start times are equal
+      if (a.Start === b.Start) {
+        return b.End - a.End; // Sort by descending end time if start times are equal
       }
-      return a.start - b.start; // Sort by ascending start time
+      return a.Start - b.Start; // Sort by ascending start time
     });
   
     // Update activity data when activities prop changes
@@ -22,12 +25,10 @@ function Daygrid({activities, totalDayCount, dayCount}) {
   }, [activities]);
 
   const updateActivityStyles = () => {
-    const totalHeight = window.innerHeight;
-    const totalHours = 22 - 8;
     // const totalWidth = window.innerWidth;
     const updatedActivities = activities.map((activity) => {
-      const height = `${((activity.end - activity.start) / totalHours) * totalHeight}px`;
-      const top = `${((activity.start - 8) / totalHours) * totalHeight}px`;
+      const height = `${((activity.End - activity.Start) / totalHours) * totalHeight}px`;
+      const top = `${((activity.Start - 8) / totalHours) * totalHeight}px`;
       const width = `${getActivityWidth(activity, totalWidth)}px`;
       const left = `${getActivityOffset(activity, totalWidth, dayCount)}px`;
       return { ...activity, height, top, width, left };
@@ -38,41 +39,40 @@ function Daygrid({activities, totalDayCount, dayCount}) {
 
   const getActivityOffset = (activity, totalWidth) => {
     const simultaneousActivities = activities.filter(
-      (a) => a !== activity && a.start <= activity.end && a.end >= activity.start
+      (a) => a !== activity && a.Start < activity.End && a.End > activity.Start
     );
     const totalSimultaneous = simultaneousActivities.length + 1;
     const activityIndex = activities.findIndex((a) => a === activity);
     let offset = 0;
     for (let i = 0; i < activityIndex; i++) {
       const a = activities[i];
-      if (a.start <= activity.end && a.end >= activity.start) {
+      if (a.Start < activity.End && a.End > activity.Start) {
         offset += (1 / totalSimultaneous) * totalWidth;
       }
     }
-    console.log(`Dings ${offset + (dayCount-1)*totalWidth}`)
 
     return offset + (dayCount-1)*totalWidth;
   };
   
   const getActivityWidth = (activity, totalWidth) => {
     const simultaneousActivities = activities.filter(
-      (a) => a !== activity && a.start <= activity.end && a.end >= activity.start
+      (a) => a !== activity && a.Start < activity.End && a.End > activity.Start
     );
     const totalSimultaneous = simultaneousActivities.length + 1;
     return 1 / totalSimultaneous * totalWidth;
   };
 
 
-  const getActivityColor = (topic) => {
-    switch (topic) {
-      case "Meeting":
+  const getActivityColor = (Category = "") => {
+    switch (Category) {
+      case "Feierei":
         return { backgroundColor: "red", borderColor: "darkred" };
-      case "Workshop":
+      case "Spiritualität":
         return { backgroundColor: "green", borderColor: "darkgreen" };
       case "Relax":
         return { backgroundColor: "blue", borderColor: "darkblue" };
       default:
-        return {};
+        return { backgroundColor: "purple", borderColor: "black" };
     }
   };
 
@@ -93,9 +93,9 @@ function Daygrid({activities, totalDayCount, dayCount}) {
     return (
       <div className="overlay" ref={overlayRef} onClick={handleOverlayClick}>
         <div className="modal">
-          <h3>{selectedActivity.name}</h3>
+          <h3>{selectedActivity.Topic}</h3>
           <p>
-            Start: {selectedActivity.start} | End: {selectedActivity.end} | Topic: {selectedActivity.topic}
+            Start: {selectedActivity.Start} | End: {selectedActivity.End} | Category: {selectedActivity.Category}
           </p>
           <button onClick={() => setSelectedActivity(null)}>Close</button>
         </div>
@@ -109,17 +109,17 @@ function Daygrid({activities, totalDayCount, dayCount}) {
       {activityData.map((activity) => (
         <button
           key={activity.id}
-          className={`activity ${activity.topic.toLowerCase()}`}
+          className={`activity ${activity.Topic}`}
           style={{
             height: activity.height,
             top: activity.top,
             width: activity.width,
             left: activity.left,
-            ...getActivityColor(activity.topic),
+            ...getActivityColor(activity.Category),
           }}
           onClick={() => handleActivityClick(activity)}
         >
-          {activity.name}
+          {activity.Topic}
         </button>
       ))}
       {renderOverlay()}
