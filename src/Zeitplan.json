@@ -1,0 +1,599 @@
+{
+	"ConferenceTopic": "Glück",
+	"ConferenceDays":	[
+		{
+			"Day": "Sonntag",
+			"DailySupervisor": "Isabel",
+			"Activities": [
+				{
+					"Start":	8.25,
+					"End":		17,
+					"Topic":	"Anreise",
+					"Location":		"Burg"
+				},
+				{
+					"Start":	17,
+					"End":		19,
+					"Topic":	"2nd thing",
+					"Location":		"In your imagination"
+				},
+				{
+					"Start":	18.25,
+					"End":		19,
+					"Topic":	"Abendessen",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	19.5,
+					"End":		21,
+					"Topic":	"Begrüßung + Kennenlernen",
+					"Location":		"Rittersaal",
+					"WorkshopSupervisor":	"Orga-Team",
+					"Category":	"Feierei"
+				},
+				{
+					"Start":	21,
+					"End":		23,
+					"Topic":	"Begrüßungsbowle",
+					"Location":		"Burghof",
+					"WorkshopSupervisor":	"Orga-Team",
+					"Category":	"Gruppenaktion"
+				}
+			]
+		},
+		{
+			"Day": "Montag",
+			"DailySupervisor": "Timo und Jan",
+			"Activities": [
+				{
+					"Start":	8.25,
+					"End":		9,
+					"Topic":	"Frühstück",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	10,
+					"End":		12,
+					"Topic":	"Thematischer Einstieg",
+					"Location":		"Rittersaal",
+					"WorkshopSupervisor":	"Timo und Jan",
+					"Category":	"Thematisches",
+					"Beschreibung": "Unterschied Glück haben/Glücklich sein etc."
+				},
+				{
+					"Start":	12.25,
+					"End":		13,
+					"Topic":	"Mittagessen",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	13,
+					"End":		13.75,
+					"Topic":	"Chor",
+					"Location":		"Rittersaal",
+					"WorkshopSupervisor":	"Jonas",
+					"Category":	"Musik"
+				},
+				{
+					"Start":	13,
+					"End":		13.75,
+					"Topic":	"Frei",
+					"Category":	"Free Time"
+				},
+				{
+					"Start":	13.75,
+					"End":		18,
+					"Topic":	"Wanderung",
+					"Location":		"Treffpunkt Linde",
+					"WorkshopSupervisor":	"Orga-Team",
+					"Category":	"Gruppenaktion"
+				},
+				{
+					"Start":	18.25,
+					"End":		19,
+					"Topic":	"Abendessen",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	19,
+					"End":		23,
+					"Topic":	"PARTY TIME",
+					"Location":		"Everywhere"
+				}
+			]
+		},
+		{
+			"Day": "Dienstag",
+			"DailySupervisor": "Felix und Isabel",
+			"Activities": [
+				{
+					"Start":	8.25,
+					"End":		9,
+					"Topic":	"Frühstück",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	10,
+					"End":		12,
+					"Topic":	"Auf gut Glück - zwischen Selbstvergessenheit und Selbstoptimierung",
+					"Location":		"Rittersaal",
+					"WorkshopSupervisor":	"Some guy",
+					"Category":	"Thematisches",
+					"Beschreibung": "Was nutzt, was hilft, was schadet"
+				},
+				{
+					"Start":	12.25,
+					"End":		13,
+					"Topic":	"Mittagessen",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	13,
+					"End":		13.75,
+					"Topic":	"Chor",
+					"Location":		"Rittersaal",
+					"WorkshopSupervisor":	"Jonas",
+					"Category":	"Musik"
+				},
+				{
+					"Start":	13.75,
+					"End":		15.75,
+					"Topic":	"Sport mit Chris",
+					"Location":		"Barockgarten",
+					"WorkshopSupervisor":	"Chris",
+					"Category":	"Arbeitskreise"
+				},
+				{
+					"Start":	13.75,
+					"End":		15.75,
+					"Topic":	"Rap",
+					"Location":		"Ehringhaus",
+					"WorkshopSupervisor":	"Friedrich",
+					"Category":	"Arbeitskreise"
+				},
+				{
+					"Start":	16,
+					"End":		18,
+					"Topic":	"Gesprächsrunde mit S. Guy",
+					"Location":		"Barockgarten",
+					"WorkshopSupervisor":	"Some guy",
+					"Category":	"Thematisches"
+				},
+				{
+					"Start":	16,
+					"End":		18,
+					"Topic":	"Yoga",
+					"Location":		"Barockgarten",
+					"Category":	"Arbeitskreise"
+				},
+				{
+					"Start":	17,
+					"End":		18,
+					"Topic":	"Kochen",
+					"Location":		"Ehringhaus",
+					"WorkshopSupervisor":	"Martha",
+					"Category":	"Arbeitskreise"
+				},
+				{
+					"Start":	18.25,
+					"End":		19,
+					"Topic":	"Aufbau für Pizzaparty",
+					"Location":		"Barockgarten"
+				},
+				{
+					"Start":	19,
+					"End":		23,
+					"Topic":	"Pizza Party",
+					"Location":		"Barockgarten",
+					"Category":	"Feierei"
+				},
+				{
+					"Start":	22,
+					"End":		23,
+					"Topic":	"Taizé",
+					"WorkshopSupervisor":	"Fionula",
+					"Category":	"Spiritualität"
+				},
+				{
+					"Start":	22,
+					"End":		23,
+					"Topic":	"Glücksmeeting",
+					"Category":	"Thematisches"
+				}
+			]
+		},
+		{
+			"Day": "Mittwoch",
+			"DailySupervisor": "Jule und Friedrich",
+			"Activities": [
+				{
+					"Start":	8.25,
+					"End":		9,
+					"Topic":	"Frühstück",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	10,
+					"End":		12,
+					"Topic":	"Planspiel",
+					"Location":		"Linde",
+					"WorkshopSupervisor":	"Orga-Team",
+					"Category":	"Gruppenaktion"
+				},
+				{
+					"Start":	12.25,
+					"End":		13,
+					"Topic":	"Mittagessen",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	13,
+					"End":		13.75,
+					"Topic":	"Chor",
+					"Location":		"Rittersaal",
+					"WorkshopSupervisor":	"Jonas",
+					"Category":	"Musik"
+				},
+				{
+					"Start":	13.75,
+					"End":		15.75,
+					"Topic":	"Yoga",
+					"Location":		"Barockgarten",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	13.75,
+					"End":		15.75,
+					"Topic":	"Lithurgie",
+					"Location":		"Kapelle",
+					"WorkshopSupervisor":	"Chris",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	13.75,
+					"End":		15.75,
+					"Topic":	"Rap",
+					"Location":		"Ehringhaus",
+					"WorkshopSupervisor":	"Friedrich",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	16,
+					"End":		18,
+					"Topic":	"Frisbee",
+					"Location":		"Linde",
+					"WorkshopSupervisor":	"Timo",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	16,
+					"End":		18,
+					"Topic":	"Sport mit Chris",
+					"Location":		"Barockgarten",
+					"WorkshopSupervisor":	"Chris",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	16,
+					"End":		18,
+					"Topic":	"Zufallskunst",
+					"Location":		"Ehringhaus",
+					"WorkshopSupervisor":	"Jule",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	18.25,
+					"End":		19,
+					"Topic":	"Abendessen",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	19,
+					"End":		20,
+					"Topic":	"Chor",
+					"Location":		"Rittersaal",
+					"WorkshopSupervisor":	"Jonas",
+					"Category":	"Musik"
+				},
+				{
+					"Start":	20,
+					"End":		22,
+					"Topic":	"Filmabend",
+					"Location":		"Rittersaal",
+					"Category":	"Thematisches"
+				},
+				{
+					"Start":	22,
+					"End":		23,
+					"Topic":	"Mondscheinmeeting",
+					"Beschreibung": "\"Large Mister Moonshine\"",
+					"Category":	"Thematisches"
+				}
+			]
+		},
+		{
+			"Day": "Donnerstag",
+			"DailySupervisor": "Isabel und Felix",
+			"Activities": [
+				{
+					"Start":	9,
+					"End":		13,
+					"Topic":	"Gemütliches Frühstück",
+					"WorkshopSupervisor":	"Orga-Team",
+					"Category":	"Feierei"
+				},
+				{
+					"Start":	12.25,
+					"End":		13,
+					"Topic":	"JT-Orga - Ehrenamt macht glücklich",
+					"Location":		"Barockgarten",
+					"WorkshopSupervisor":	"Orga-Team",
+					"Category":	"Gruppenaktion"
+				},
+				{
+					"Start":	13.75,
+					"End":		15.45,
+					"Topic":	"\"Glück kann man sich kaufen, es ist nur sehr teuer eben\"",
+					"Location":		"Rittersaal",
+					"WorkshopSupervisor":	"Some gal",
+					"Category":	"Thematisches"
+				},
+				{
+					"Start":	16,
+					"End":		18,
+					"Topic":	"Rap",
+					"Location":		"Ehringhaus",
+					"WorkshopSupervisor":	"Friedrich",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	16,
+					"End":		18,
+					"Topic":	"Liturgie",
+					"Location":		"Kapelle",
+					"WorkshopSupervisor":	"Chris",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	18.25,
+					"End":		19,
+					"Topic":	"Abendessen",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	19,
+					"End":		20,
+					"Topic":	"Felix Felicis",
+					"Location":		"Vierjahreszeitentisch",
+					"WorkshopSupervisor":	"Alex und Felix",
+					"Category":	"Arbeitskreise"
+				},
+				{
+					"Start":	20,
+					"End":		22,
+					"Topic":	"Glücksspielabend",
+					"Location":		"Rittersaal",
+					"WorkshopSupervisor":	"Orga-Team",
+					"Category":	"Feierei"
+				},
+				{
+					"Start":	22,
+					"End":		23,
+					"Topic":	"Taizé",
+					"WorkshopSupervisor":	"Fionula",
+					"Category":	"Spiritualität"
+				},
+				{
+					"Start":	22,
+					"End":		23,
+					"Topic":	"Glücksmeeting",
+					"Category":	"Thematisches"
+				}
+			]
+		},
+		{
+			"Day": "Freitag",
+			"DailySupervisor": "Friedrich und Timo",
+			"Activities": [
+				{
+					"Start":	8.25,
+					"End":		9,
+					"Topic":	"Frühstück",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	10,
+					"End":		12,
+					"Topic":	"\"Glück auf Knopfdruck zwischen Missbrauch und Sucht\"",
+					"Location":		"Rittersaal",
+					"WorkshopSupervisor":	"Some other guy",
+					"Category":	"Thematisches"
+				},
+				{
+					"Start":	12.25,
+					"End":		13,
+					"Topic":	"Mittagessen",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	13.75,
+					"End":		15.75,
+					"Topic":	"Diskussionsrunde",
+					"Location":		"Rittersaal",
+					"WorkshopSupervisor":	"Some other guy",
+					"Category":	"Thematisches"
+				},
+				{
+					"Start":	16,
+					"End":		18,
+					"Topic":	"Frisbee",
+					"Location":		"Linde",
+					"WorkshopSupervisor":	"Timo",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	16,
+					"End":		18,
+					"Topic":	"Liturgie",
+					"Location":		"Kapelle",
+					"WorkshopSupervisor":	"Chris",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	16,
+					"End":		18,
+					"Topic":	"Zufallskunst",
+					"Location":		"Ehringhaus",
+					"WorkshopSupervisor":	"Jule",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	18.25,
+					"End":		19,
+					"Topic":	"Abendessen",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	19,
+					"End":		20,
+					"Topic":	"Chor",
+					"Location":		"Rittersaal",
+					"WorkshopSupervisor":	"Jonas",
+					"Category":	"Musik"
+				},
+				{
+					"Start":	20,
+					"End":		23,
+					"Topic":	"Karaoke im Burghof",
+					"Location":		"Burghof",
+					"WorkshopSupervisor":	"Orga-Team",
+					"Category":	"Feierei"
+				}
+			]
+		},
+		{
+			"Day": "Samstag",
+			"DailySupervisor": "Jan und Jule",
+			"Activities": [
+				{
+					"Start":	8.25,
+					"End":		9,
+					"Topic":	"Frühstück",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	9,
+					"End":		12,
+					"Topic":	"Reflektierendes Feedback",
+					"Location":		"Rittersaal",
+					"WorkshopSupervisor":	"Orga-Team",
+					"Category":	"Thametisches"
+				},
+				{
+					"Start":	12.25,
+					"End":		13,
+					"Topic":	"Mittagessen",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	13.75,
+					"End":		15.75,
+					"Topic":	"Sport mit Lea",
+					"Location":		"Barockgarten",
+					"WorkshopSupervisor":	"Lea",
+					"Category":	"Arbeitskreise"
+				},
+				{
+					"Start":	13.75,
+					"End":		15.75,
+					"Topic":	"Zufallskunst",
+					"Location":		"Ehringhaus",
+					"WorkshopSupervisor":	"Jule",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	13.75,
+					"End":		15.75,
+					"Topic":	"Rap",
+					"Location":		"Ehringhaus",
+					"WorkshopSupervisor":	"Friedrich",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	16,
+					"End":		18,
+					"Topic":	"Deko/Verkleidung",
+					"Location":		"Rittersaal",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	16,
+					"End":		18,
+					"Topic":	"Aufbau bunter Abend",
+					"Location":		"Ehringhaus",
+					"Category":	"Arbeitskreis"
+				},
+				{
+					"Start":	18.25,
+					"End":		19,
+					"Topic":	"Abendessen",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	19.5,
+					"End":		23,
+					"Topic":	"Bunter Abend",
+					"Location":		"Burghof",
+					"WorkshopSupervisor":	"Orga-Team",
+					"Category":	"Feierei"
+				}
+			]
+		},
+		{
+			"Day": "Sonntag",
+			"DailySupervisor": "Timo und Friedrich",
+			"Activities": [
+				{
+					"Start":	8.25,
+					"End":		9,
+					"Topic":	"Frühstück",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	9,
+					"End":		11,
+					"Topic":	"Kollektives Kofferpacken",
+					"WorkshopSupervisor":	"Orga-Team",
+					"Category":	"Gruppenaktion"
+				},
+				{
+					"Start":	9,
+					"End":		11,
+					"Topic":	"Burg aufräumen",
+					"WorkshopSupervisor":	"Orga-Team",
+					"Category":	"Gruppenaktion"
+				},
+				{
+					"Start":	11,
+					"End":		12,
+					"Topic":	"Gottesdienst",
+					"Location":		"Rittersaal",
+					"WorkshopSupervisor":	"Chris",
+					"Category":	"Spiritualität",
+					"Beschreibung": "Eine Beschreibung"
+				},
+				{
+					"Start":	12.25,
+					"End":		13,
+					"Topic":	"Mittagessen",
+					"Location":		"Küche"
+				},
+				{
+					"Start":	11,
+					"End":		12,
+					"Topic":	"Abreise",
+					"Beschreibung": "\"Time to say goodbye. Paesi che non ho mai\""
+				}
+			]
+		}]
+}
