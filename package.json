@@ -1,6 +1,6 @@
 {
   "homepage": "http://pjungk.github.io/TimetableWeb",
-  "name": "timetable_web",
+  "name": "TimetableWeb",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
